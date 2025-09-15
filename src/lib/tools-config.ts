@@ -1,4 +1,4 @@
-import { Hash, FileText, Key, FileDown, Shield, Link, Palette, Clock, Type, Eye, QrCode, Binary, FileCode } from "lucide-react";
+import { Hash, FileText, Key, FileDown, Shield, Link, Palette, Clock, Type, Eye, QrCode, Binary, FileCode, Search } from "lucide-react";
 import { LucideIcon } from "lucide-react";
 
 export interface ToolConfig {
@@ -169,6 +169,18 @@ export const toolsConfig: ToolConfig[] = [
       title: "JSON Formatter/Validator - Format, Validate & Minify JSON Online",
       description: "Free online JSON formatter and validator tool. Format JSON with proper indentation, validate JSON syntax, and minify JSON for production. Essential tool for developers working with JSON data.",
       keywords: ["json formatter", "json validator", "json minifier", "json prettifier", "json parser", "format json", "validate json", "minify json", "json syntax", "json online", "json tool", "pretty print json"]
+    }
+  },
+  {
+    id: "regex",
+    title: "Regular Expression Tester",
+    description: "Test and debug regex patterns with live matching and group visualization",
+    icon: Search,
+    href: "/tools/regex",
+    seo: {
+      title: "Regular Expression Tester - Test Regex Patterns Online",
+      description: "Free online regex tester and debugger. Test regular expressions with live matching, group visualization, and common pattern examples. Essential tool for developers working with regex.",
+      keywords: ["regex tester", "regular expression", "regex online", "regex debugger", "pattern matching", "regex validator", "regex examples", "regex syntax", "regex groups", "regex flags"]
     }
   }
 ];
